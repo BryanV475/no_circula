@@ -18,7 +18,7 @@ import java.time.format.DateTimeParseException;
 import java.util.List;
 
 @RestController
-@RequestMapping("/auto")
+@RequestMapping("/api/auto")
 @CrossOrigin(origins = "*")
 public class AutoController {
     @Autowired
