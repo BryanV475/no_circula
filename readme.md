@@ -37,9 +37,9 @@ Esta es una aplicación web para el registro de vehículos y la validación de s
 
 2. Configura la base de datos PostgreSQL en `application.properties`:
     ```properties
-    spring.datasource.url=jdbc:postgresql://ep-noisy-snowflake-a5wrmlpm.us-east-2.aws.neon.tech/neondb?user=neondb_owner&password=5Ujgkfmyb9Fn&sslmode=require
-    spring.datasource.username=neondb_owner
-    spring.datasource.password=5Ujgkfmyb9Fn
+    spring.datasource.url=jdbc:postgresql://<neondbURI>
+    spring.datasource.username=<usuario>
+    spring.datasource.password=**********
     spring.jpa.hibernate.ddl-auto=update
     spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
     ```
