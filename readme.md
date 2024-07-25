@@ -76,9 +76,9 @@ Esta es una aplicación web para el registro de vehículos y la validación de s
 
 ## API Endpoints
 
-- **Registrar Auto**: `POST /api/autos`
+- **Registrar Auto**: `POST /api/auto`
     - Request Body: JSON con los detalles del vehículo.
     - Response: JSON con la información del vehículo registrado.
-- **Validar Circulación**: `POST /api/autos/validate?placa={placa}&fechaHora={fechaHora}`
+- **Validar Circulación**: `POST /api/auto/validate?placa={placa}&fechaHora={fechaHora}`
     - Request Params: `placa` (string), `fechaHora` (ISO 8601 string).
     - Response: JSON con la información del vehículo y el mensaje de validación.
